@@ -6,6 +6,7 @@ import configureStore from './app/store';
 import routes from './app/routes';
 import rootSaga from './app/sagas';
 import NotFound from './app/common/containers/not-found';
+import './styles/css/index.css';
 
 const store = configureStore();
 

@@ -31,9 +31,10 @@ class Users extends Component {
   render() {
     return (
       <MainLayout>
+        <h1>Users</h1>
         <UserList users={this.props.users.data.users} />
         {this.props.users.data.page === this.props.users.data.totalPages
-          && <p>No more users.</p>}
+          && <p className="message no-more-users">No more users.</p>}
       </MainLayout>
     );
   }

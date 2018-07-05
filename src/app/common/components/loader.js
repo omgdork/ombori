@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { Animated } from 'react-native';
+// import { Animated } from 'react-native';
 import PropTypes from 'prop-types';
 
 class Loader extends Component {

@@ -1,0 +1,21 @@
+.user-list {
+  list-style: none;
+  margin-left: 40px;
+
+  li {
+    align-items: center;
+    border-bottom: 1px solid $user-list-border-color;
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px 10px 0;
+
+    .avatar {
+      border-radius: 100%;
+      display: inline-block;
+    }
+
+    .user-name {
+      margin-left: 10px;
+    }
+  }
+}

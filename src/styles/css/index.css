@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  outline: none;
+  padding: 0; }
+
+html, body {
+  font: normal 14px/1.4 'Segoe UI', 'Helvetica', 'Arial', sans-serif; }
+
+h1 {
+  background: #eee;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 40px 0;
+  text-align: center; }
+
+p.message {
+  padding: 10px;
+  text-align: center; }
+
+.user-list {
+  list-style: none;
+  margin-left: 40px; }
+  .user-list li {
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    font-size: 20px;
+    padding: 10px 10px 10px 0; }
+    .user-list li .avatar {
+      border-radius: 100%;
+      display: inline-block; }
+    .user-list li .user-name {
+      margin-left: 10px; }

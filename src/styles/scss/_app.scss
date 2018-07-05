@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+html, body {
+  font: normal 14px/1.4 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+  background: $h1-background-color;
+  border-bottom: 1px solid $h1-border-color;
+  padding: 40px 0;
+  text-align: center;
+}
+
+p.message {
+  padding: 10px;
+  text-align: center;
+}
